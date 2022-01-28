@@ -44,6 +44,9 @@ public class BoardService {
 	}
 	
 	public Board read(String bno) {
+		
+		//조회수 증가 로직 추가 
+		
 		return mapper.read(bno);
 	}
 	
